@@ -7,7 +7,6 @@ const cards = data.map(prop=>{
   return(
     <Card 
     {...prop}
-    
     />
   )
 })
@@ -16,7 +15,6 @@ function App() {
    <>
    <Navbar/>
    {cards}
-   
    </>
   );
 }
